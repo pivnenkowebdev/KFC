@@ -1,0 +1,70 @@
+// html{
+//    overflow: hidden;
+// }
+
+body{ 
+   background-color: rgb(253, 222, 137);
+}
+
+.game{
+   margin: 100px auto 0;
+}
+
+.game-header {
+   padding: 20px 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 700;
+   background-color: rgb(231, 182, 147);
+}
+
+.play{
+   display: flex;
+   align-items: center;
+   column-gap: 15px;
+   padding: 10px 20px;
+   border-radius: 10px;
+   color: #fff;
+   background-color: #218129;
+   cursor: pointer;
+   transition: background-color 0.3s;
+
+   &__img{
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+   }
+   
+   &:hover{
+      background-color: #14571a;
+   }
+
+   &:active{
+      transform: translateY(2px);
+   }
+}
+
+#cnv{
+   background-image: url(../img/main-bg.png);
+   background-size: cover;
+   cursor: none;
+}
+
+.footer {
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.logo-rs {
+   display: inline-block;
+   width: 50px;
+}
+.year {
+}
+.logo-gh {
+   display: inline-block;
+   width: 50px;
+}
